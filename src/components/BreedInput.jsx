@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
+import PropTypes from "prop-types";
 
 const BreedInput = ({
   breedInput,
@@ -51,6 +52,15 @@ const BreedInput = ({
       )}
     </div>
   );
+};
+
+BreedInput.propTypes = {
+  breedInput: PropTypes.string.isRequired,
+  setBreedInput: PropTypes.func.isRequired,
+  breeds: PropTypes.arrayOf(PropTypes.string).isRequired,
+  setFilteredBreeds: PropTypes.func.isRequired,
+  filteredBreeds: PropTypes.arrayOf(PropTypes.string).isRequired,
+  setContent: PropTypes.func.isRequired,
 };
 
 export default BreedInput;

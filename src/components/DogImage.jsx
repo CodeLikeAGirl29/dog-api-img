@@ -1,5 +1,3 @@
-import React from "react";
-
 const DogImage = ({ content }) => {
   if (!content) return <p>Enter a breed or generate a random image of a dog!</p>;
 
