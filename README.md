@@ -1,9 +1,4 @@
 # **The Woof Guide 🐾**
-
-Welcome to **The Woof Guide**, the ultimate destination for dog lovers and curious canines alike! 🐕 Dive into the fascinating world of dog breeds, explore random dog images, and discover all there is to know about our four-legged friends.  
-
----
-
 ## **Features** 📽️
 - 🐶 **Random Dog Generator**: Get a surprise dog image and its breed with just a click.
 - 🔍 **Breed Lookup**: Type a breed name and get its image instantly.
@@ -40,7 +35,7 @@ Before you get started, make sure you have:
    ```
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
    Open your browser and navigate to `http://localhost:5173`.
 
@@ -80,50 +75,4 @@ src/
 
 4. **Discover Sub-Breeds**  
    Input a breed name and press **"Show Sub-Breed"** to explore its variations.
-
----
-
-## **Screenshots** 🎥
-- Random Dog Generator  
-- Autofill Suggestions  
-- Comprehensive Breed Modal
-![screenshot](https://res.cloudinary.com/dhw9dl4gm/image/upload/v1732011196/screenshot-woof-guide_swbej4.png)
----
-
-## **Contributing** 🥳
-Contributions are welcome! Here’s how you can help:
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your awesome feature"
-   ```
-4. Push your changes:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Open a pull request!
-
----
-
-## **License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## **Acknowledgments**
-- **Dog CEO API**: For providing the fantastic dog images and breed data. Find their docs [here](https://dog.ceo/dog-api/).
-- **React-Bootstrap**: For the sleek and modern UI components.
-- Dog lovers everywhere for inspiring this project. ❤️🐾
-
----
-
-## **Contact**
-Have questions or feedback? Reach out to me at:
-- **Email**: lindseykdev@gmail.com
-- **GitHub**: [your-username](https://github.com/codelikeagirl29)
-
 ---

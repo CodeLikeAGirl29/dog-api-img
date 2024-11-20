@@ -12,7 +12,6 @@ const App = () => {
   const [breeds, setBreeds] = useState([]);
   const [filteredBreeds, setFilteredBreeds] = useState([]);
   const [content, setContent] = useState(null);
-  const [loading, setLoading] = useState(false);
 
   // Fetch all breeds on component mount
   useEffect(() => {
@@ -90,7 +89,6 @@ const App = () => {
         showModal={showModal}
         handleCloseModal={handleCloseModal}
         breeds={breeds}
-        loading={loading}
       />
     </div>
   );

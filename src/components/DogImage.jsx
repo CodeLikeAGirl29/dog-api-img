@@ -8,6 +8,7 @@ const DogImage = ({ content }) => {
         src={content.image}
         alt={`${content.name} dog`}
         className="img-fluid rounded shadow mt-3"
+        style={{ width: "300px", height: "300px", objectFit: "cover" }}
       />
     </div>
   );
