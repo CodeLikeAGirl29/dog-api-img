@@ -40,7 +40,7 @@ Before you get started, make sure you have:
    ```
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
    Open your browser and navigate to `http://localhost:5173`.
 
