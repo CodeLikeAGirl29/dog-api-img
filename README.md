@@ -1,12 +1,11 @@
 # **The Woof Guide 🐾**
+
 ## **Features** 📽️
 - 🐶 **Random Dog Generator**: Get a surprise dog image and its breed with just a click.
 - 🔍 **Breed Lookup**: Type a breed name and get its image instantly.
 - 🧠 **Autofill Suggestions**: Smart breed name suggestions as you type.
 - 🐕‍🦺 **Sub-Breed Explorer**: Check out sub-breeds for any specific breed.
 - 📜 **Comprehensive Breed List**: Explore all available dog breeds in a neat, scrollable modal.
-
----
 
 ## **Live Demo** 💻
 Check out the app in action: [The Woof Guide](https://dog-api-img.vercel.app/)
